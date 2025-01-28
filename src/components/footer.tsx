@@ -14,16 +14,16 @@ import Gplay from "../../public/images/G Pay.png"
 const Footer = () => {
   return (
     <div className="bg-[#F0F0F0] w-[100%] h-auto pt-20">
-      <div className="relative w-[87%] mx-auto h-auto pb-7 md:pb-5 pt-5 bg-[#000000] rounded-2xl md:ml-[6.3rem] flex flex-col sm:flex-row md:flex-row items-center pl-0 md:pl-16 mt-[-12rem] md:mt-[-9rem]">
-        <div className="integral text-white text-[30px] md:text-[32px] pt-4 md:pt-0 w-[80%] md:w-[35%] font-bold leading-none">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
+      <div className="relative w-[90%] md:w-[87%] sm:w-[100%] mx-auto h-auto pb-7 md:pb-5 pt-5 bg-[#000000] rounded-2xl sm:ml-[4.3rem] md:ml-[6.3rem] flex flex-col sm:flex-row md:flex-row items-center pl-0 md:pl-16 mt-[-12rem] md:mt-[-9rem]">
+        <div className="integral text-white text-[30px] sm:text-[31px] md:text-[32px] pt-4 sm:pt-2 md:pt-0 w-[80%] sm:w-[50%] md:w-[35%] font-bold leading-none">STAY UPTO DATE ABOUT OUR LATEST OFFERS</div>
         <div className="pt-[1rem] md:pt-[0rem]">
-          <div className="relative ml-[0rem] md:ml-[20rem] w-[22rem] md:w-[25rem] rounded-full mt-4 md:mt-0">
+          <div className="relative ml-[0rem] md:ml-[20rem] w-[20rem] md:w-[25rem] rounded-full mt-4 md:mt-0">
                 <input type="text" placeholder="Enter your email address" className="mb-3 p-[0.75rem] hover:bg-[#e3e2e2] pl-12 w-full border-none text-[15px] rounded-full bg-[#fffff] text-black" />
                 <span className="satoshi absolute inset-y-0 left-4 flex items-center pt-[0rem] cursor-pointer">
                     <Image src={mail} alt='icon_send' className="mb-3"/>
                 </span>
           </div>
-          <button className="satoshi text-black bg-white w-[22rem] md:w-[25rem] rounded-full p-[0.75rem] ml-[0rem] md:ml-[20rem] hover:bg-[#e3e2e2]">Subscribe to Newsletter</button>
+          <button className="satoshi text-black bg-white w-[20rem] md:w-[25rem] rounded-full p-[0.75rem] ml-[0rem] md:ml-[20rem] hover:bg-[#e3e2e2]">Subscribe to Newsletter</button>
         </div>
       </div>
         <div className="hidden md:flex md:flex-row gap-[8.2rem] w-[87%] ml-[2rem] md:ml-[6.3rem] mt-8 md:mt-14">
